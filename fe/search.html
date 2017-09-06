@@ -1,4 +1,28 @@
-<!DOCTYPE html>
+<div>
+	<div class="col-xs-12">
+        <md-input-container class="md-block" align="center">
+            <label >
+                
+            </label>
+            <textarea style="background-color: white; "
+                      ng-model="toSearch"
+                      rows="2"></textarea>
+        </md-input-container>
+    </div>
+
+        <button ng-click='getData(toSearch)'>
+
+        </button>
+        
+        <ul>
+    <li>{{response.template.body}}</li>
+    <li ng-bind-html-unsafe="response.template.body"></li>
+  </ul>
+        
+</div>
+
+
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <title></title>
@@ -32,10 +56,10 @@ input::placeholder{
 </head>
 <body>
 <div>
-<!-- <label for="search">Search  </label> -->
+
 <input id= "search" type= "text" name="name" placeholder="search"><input id="button" style="height: 36px;width: 100" type="submit" value="submit">
 
 </div>
  
 </body>
-</html>
+</html> -->

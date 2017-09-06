@@ -10,7 +10,10 @@
     "async": "^2.5.0",
     "body-parser": "*",
     "express": "*",
+    "google": "^2.1.0",
+    "google-images": "^2.1.0",
     "mongoose": "*",
+    "node-wikipedia": "0.0.2",
     "request": "^2.81.0"
   },
   "keywords": [],
