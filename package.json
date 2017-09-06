@@ -1,0 +1,19 @@
+{
+  "name": "assg1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "request": "^2.81.0"
+  },
+  "keywords": [],
+  "author": "varun",
+  "license": "ISC"
+}
